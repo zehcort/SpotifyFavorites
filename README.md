@@ -1,16 +1,11 @@
 # spotify_favorites
 
-A new Flutter project.
+A simple flutter project using Spotify API.
 
-## Getting Started
+## To execute the API request
 
-This project is a starting point for a Flutter application.
+Replace the constant value located in /lib/utils/constants.dart named String API_AUTH_TOKEN_TXT for a new generated token in the following link, by clicking "Get token" button, accepting and taking the "Bearer ..." string in the right side of the web page:
 
-A few resources to get you started if this is your first Flutter project:
+https://developer.spotify.com/console/get-several-artists/
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This auth token have to be renewed each 30 minutes, approximately.
